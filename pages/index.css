@@ -1,0 +1,56 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+
+
+
+
+@import url('./P/page.css');
+
+@import url('./P/header.css');
+
+@import url('./P/content.css');
+
+@import url('./P/lead.css');
+@import url('./P/intro.css');
+@import url('./P/photo-grid.css');
+@import url('./P/places.css');
+@import url('./P/cover.css');
+@import url('./P/footer.css');
+
+
+
+
+
+
+
+
+
+/* стили блока page
+@import url('');
+
+стили блоков header
+@import url('');
+@import url('');
+
+стили элементов блока header
+@import url('');
+@import url('');
+@import url('');
+@import url('');
+@import url('');
+
+стили модификаторов блока header
+@import url(''); */
+
+
+
+
+
+
+
+
+
+
+
+
+

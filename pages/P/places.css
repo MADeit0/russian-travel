@@ -1,0 +1,65 @@
+
+.places {
+  max-width: 984px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.places__item {
+}
+
+.place {
+  display:grid;
+  gap: 48px 40px;
+  grid-template-columns: 460px 1fr;
+  grid-template-areas:
+  "title link"
+  "image text" ;
+}
+
+.place__title {
+  grid-area: title;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  color: white;
+  margin: 0;
+}
+.place__image {
+  object-fit: cover;
+  width: 100%;
+  grid-area: image;
+}
+
+.place__website {
+  grid-area: link;
+  align-self: flex-end;
+  margin: 0;
+}
+
+.place__url-heading {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #AAAAAA;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.place__link {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  color: white;
+  margin: 0;
+}
+
+.place__paragraph {
+  grid-area: text;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  color: white;
+  margin: 0;
+}

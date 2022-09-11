@@ -1,0 +1,26 @@
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 92px 0 24px;
+}
+
+.footer__menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer__list-links {
+  line-height: 0;
+}
+.footer__link {
+}
+.footer__copyright {
+  margin: 0;
+}

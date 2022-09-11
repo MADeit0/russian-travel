@@ -1,0 +1,48 @@
+
+.intro {
+  max-width: 984px;
+  width: 100%;
+
+}
+.intro__title {
+  max-width: 690px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  color: white;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.intro__text {
+  max-width: 690px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.63;
+  color: white;
+  padding-bottom: 33px;
+  margin: 0;
+}
+
+.intro__list {
+  max-width: 690px;
+  display: block;
+  margin: 0;
+}
+
+.intro__key {
+  display: inline;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+  color: white;
+  margin: 0;
+}
+.intro__value {
+  display: inline;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  color: white;
+  margin: 0;
+}

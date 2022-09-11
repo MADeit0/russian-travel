@@ -1,0 +1,48 @@
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 984px;
+  padding-top: 56px;
+}
+.header__title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+  text-align: center;
+  color: white;
+  padding-bottom: 32px;
+  margin: 0;
+}
+.header__subtitle {
+  max-width: 640px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  color: white;
+  padding-bottom: 64px;
+  margin: 0;
+}
+
+.header__figure {
+  line-height: 0;
+  margin: 0;
+}
+
+.header__image {
+  object-fit: cover;
+  width: 100%;
+
+}
+.header__caption {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 8px;
+  margin: 0;
+}
