@@ -1,8 +1,11 @@
 .header {
+  max-width: 1280px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 28px 48px 0;
+  box-sizing: border-box;
 }
 
 .header__logo {
@@ -19,5 +22,38 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 1.17;
+  text-decoration: none;
   color: white;
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
+  pointer-events: none;
+}
+
+/*--------------------------------------------  */
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px 16px 0;
+  }
+}
+
+/* -------------------------------------------- */
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+  }
+}
+/* ------------------------------------------- */
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }
