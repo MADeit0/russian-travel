@@ -1,0 +1,28 @@
+.cover__link {
+  height: 100%;
+  aspect-ratio: 8/5;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.cover__link::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity .3s ease-in-out;
+  z-index: -1;
+}
+
+.cover__link:hover::before {
+  opacity: .8;
+}
