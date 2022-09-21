@@ -1,16 +1,16 @@
 .cover__title {
   max-width: min-content;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
+  font-size: clamp(32px, 9.68vw, 72px);
+  line-height: 1.09;
   text-align: center;
   color: white;
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .cover__title {
-    font-size: clamp(32px, 9.68vw, 72px);
-    line-height: 1.09;
+    font-size: 72px;
+    line-height: 1.06;
   }
 }

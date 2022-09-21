@@ -1,6 +1,41 @@
 .place__text {
+  max-width: 320px;
   grid-area: text;
   display: flex;
   flex-flow: column nowrap;
   gap: 26px;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 425px) {
+  .place__text {
+    max-width: 393px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .place__text {
+    max-width: 295px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__text {
+    max-width: 352px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__text {
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__text {
+    max-width: 484px;
+  }
 }

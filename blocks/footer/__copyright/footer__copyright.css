@@ -1,19 +1,14 @@
 .footer__copyright {
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1;
+  white-space: nowrap;
   color: white;
   margin: 0;
 }
 
-@media screen and (max-width: 708px) {
+@media screen and (min-width: 768px) {
   .footer__copyright {
-    align-self: flex-end;
-  }
-}
-
-@media screen and (max-width: 384px) {
-  .footer__copyright {
-    align-self: flex-start;
+    line-height: 1.14;
   }
 }
